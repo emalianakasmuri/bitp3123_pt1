@@ -1,6 +1,5 @@
 package mathapp;
 
-import javax.swing.plaf.multi.MultiInternalFrameUI;
 
 import controller.Multiplication;
 
