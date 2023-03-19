@@ -1,5 +1,7 @@
 package mathapp;
 
+import javax.swing.plaf.multi.MultiInternalFrameUI;
+
 import controller.Multiplication;
 
 public class MathApplication {
@@ -9,6 +11,8 @@ public class MathApplication {
 		System.out.println("Demonstrating math application");
 		
 		Multiplication multiplication = new Multiplication();
+		multiplication.generateMultiplicationTable(10);
+		multiplication.generateMultiplicationTable(11);
 		multiplication.generateMultiplicationTable(12);
 		
 		
